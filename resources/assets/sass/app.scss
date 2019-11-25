@@ -6,8 +6,14 @@
 // iview
 @import '~view-design/dist/styles/iview';
 
-// pages
-@import "pages/index";
+// components
+@import "components/index";
+
+// admin
+@import "admin/index";
+
+// home
+@import "home/index";
 
 // header
 .header {

@@ -60,6 +60,12 @@ Vue.prototype.$cdn = process.env.MIX_APP_CDN
 // components
 require('./components')
 
+// admin
+require('./admin')
+
+// home
+require('./home')
+
 // app
 const app = new Vue({
     el: '#app'
